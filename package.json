@@ -4,10 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Привет!'",
-    "check": "prettier --check './**/*.{html,css,js}'",
-    "format": "prettier --write './**/*.{html,css,js}'",
-    "lint": "stylelint './styles/**/*.css'",
-    "lintfix": "stylelint './styles/**/*.css' --fix"
+    "check": "prettier --check './**/*.{html,css}'",
+    "format": "prettier --write './**/*.{html,css}''"
   },
   "repository": {
     "type": "git",
@@ -22,6 +20,6 @@
   "description": "",
   "dependencies": {
     "prettier": "^3.4.2",
-    "stylelint": "^16.12.0"
+    "stylelint": "^16.14.0"
   }
 }
